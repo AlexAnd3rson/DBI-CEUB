@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="medicosPaciente" directorySegmentName="seg_0" id="3724EE6D-368C-5F79-AE84-2A16A54CE3DB">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-04-03 22:54:26 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A5983D11-3CEC-6D74-2D0A-2B4891B3029F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1BC5FC31-4753-D56E-4EA8-3479AFF4D21D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A1CDEE95-0B98-7CAA-5213-4E5F85B13E5D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

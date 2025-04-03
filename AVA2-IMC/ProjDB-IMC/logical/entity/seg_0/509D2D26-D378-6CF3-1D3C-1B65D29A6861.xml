@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="509D2D26-D378-6CF3-1D3C-1B65D29A6861" name="IMC">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-04-03 22:44:34 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A5983D11-3CEC-6D74-2D0A-2B4891B3029F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>imc</preferredAbbreviation>
+<shortName>imc</shortName>
+<synonym>imc</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="baixo" id="1C915890-E99D-C68D-A256-309064AFBE08">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-04-03 22:44:55 UTC</createdTime>
+<comment><![CDATA[caso o imc seja <18,5kg/m2 =indicar receita vinculada]]></comment>
+<notes><![CDATA[preciso que demonstre a seguinte informação " É recomendado procurar um médico para avaliação criteriosa do resultado. Pode indicar um estado de consumo do
+organismo, com poucas reservas e riscos associado"
+]]></notes>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A5983D11-3CEC-6D74-2D0A-2B4891B3029F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adequado" id="15612EBC-FA01-24E9-E038-C174D86D8FF4">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-04-03 22:46:55 UTC</createdTime>
+<comment><![CDATA[caso seja >18,5 até 24,9kg/m2=indicar receita vinculada]]></comment>
+<notes><![CDATA[Tudo indica que está tudo bem, mas é importante avaliar outros parâmetros da composição corporal,
+para compreender se estão dentro do recomendado. Algumas pessoas apresentam IMC dentro da normalidade, mas têm circunferência abdominal
+maior que a recomendada e/ou quantidade de massa gorda acima do ideal.]]></notes>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A5983D11-3CEC-6D74-2D0A-2B4891B3029F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrepeso" id="8A2C677C-EC34-632D-0CCD-BAFA28C1EA8D">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-04-03 22:47:54 UTC</createdTime>
+<comment><![CDATA[▪ IMC ≥25 até 29,9kg/m2=indicar receita vinculada]]></comment>
+<notes><![CDATA[sobrepeso. O sobrepeso está associado ao risco de doenças como diabetes e hipertensão. Então, atenção! Consulte um
+médico e reveja hábitos para reverter o quadro. Também é importante avaliar outros parâmetros, como a circunferência abdominal.]]></notes>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A5983D11-3CEC-6D74-2D0A-2B4891B3029F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidade1" id="9FA801A2-CB90-7D4C-42F2-5615807AAE55">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-04-03 22:48:20 UTC</createdTime>
+<comment><![CDATA[▪ IMC de 30,0- 34,9kg/m2=indicar receita vinculada]]></comment>
+<notes><![CDATA[É importante buscar orientação médica e nutricional para entender melhor o seu caso, mesmo que os
+exames (colesterol e glicemia, por exemplo) estejam normais.]]></notes>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A5983D11-3CEC-6D74-2D0A-2B4891B3029F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidade2" id="7C50D6A1-FCA9-8CCD-60AD-0A76E9848D05">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-04-03 22:49:05 UTC</createdTime>
+<comment><![CDATA[IMC de 35,0- 39,9kg/m2=indicar receita vinculada]]></comment>
+<notes><![CDATA[obesidade grau II. Indica um quadro de obesidade mais evoluído em relação à classificação anterior e, mesmo com
+exames laboratoriais dentro da normalidade, não se deve atrasar a busca por orientação médica e nutricional.
+]]></notes>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A5983D11-3CEC-6D74-2D0A-2B4891B3029F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obesidade3" id="258DA309-1369-1C11-1FD4-F891A1F02675">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-04-03 22:49:30 UTC</createdTime>
+<comment><![CDATA[IMC ≥ 40,0kg/m2=indicar receita vinculada]]></comment>
+<notes><![CDATA[obesidade grau III. Nesse ponto, a chance de já estarmos diante de outras doenças associadas é mais elevada. É fundamental
+buscar orientação médica.]]></notes>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="A5983D11-3CEC-6D74-2D0A-2B4891B3029F" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
