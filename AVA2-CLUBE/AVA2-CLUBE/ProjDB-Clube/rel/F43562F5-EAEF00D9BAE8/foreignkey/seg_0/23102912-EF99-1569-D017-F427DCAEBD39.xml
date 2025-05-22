@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23102912-EF99-1569-D017-F427DCAEBD39" containerWithKeyObject="23A3EC78-5706-983D-BDCF-535B76D40275" localFKIndex="AE9B4862-0CBA-CA0F-518F-2A69055678ED" name="DependenteParentescov1">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<generatorID>306D9FEE-5938-5FAD-6746-2B2381E7FFE7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referredTableLongName>Parentesco</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E13A336D-AC49-BD95-940C-CE08110150B9</referredTableID>
+<keyObject>B6639651-D5DE-A055-5F8A-108043117B09</keyObject>
+<referredKeyID>B6639651-D5DE-A055-5F8A-108043117B09</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>grauParentesco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

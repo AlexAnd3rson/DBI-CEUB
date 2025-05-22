@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31779A06-CEF8-F986-3E36-52C63145A50B" name="Pessoa">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>ED2F66C8-9E7D-48BB-5D37-1376BF08DC83</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfPessoa" id="E8471061-0542-6940-5F8F-2D34BE427E19">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>236D17B2-1BF4-3F9C-ED60-5AD95889B538</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomePessoa" id="55C0FEC8-AF89-6B2F-0AC4-2EC7E67EDC16">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>1573586B-7816-8C68-BF74-A397CCFA4B99</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimentoPessoa" id="EF00E0F9-1593-7659-C706-95181B5D0C20">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>667689BC-F396-0D10-31DB-1D7615B9EE6D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dependente_cpfDependente" id="BBE8E6CD-389D-027A-8F7B-45263525F54B">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>EB12DF37-2465-42B9-CF85-F98000F594E4</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF38EF2A-EEB7-057F-7F94-81E3A8C82FCD" referredColumn="B074BD71-3DA6-588F-9ECF-9C2EB12EBF38"/>
+</associations>
+</Column>
+<Column name="Dependente_cpfTitular" id="5F89DB64-A8FE-E0EC-2E29-16E03F8995D9">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>5DF528FC-789D-8817-A2E7-30443A57B319</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF38EF2A-EEB7-057F-7F94-81E3A8C82FCD" referredColumn="4688B590-BCD9-1BF7-6EDF-47AE3C48E1C7"/>
+</associations>
+</Column>
+<Column name="EnderecoPessoa_cpfPessoa" id="2F236F47-64E7-3794-3342-DCF854F7015A">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>5C12A62A-E9D3-DAAE-932C-F8E2A8C37F65</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="203514DB-CAB7-F2B2-FAE1-E98B72D91660" referredColumn="C3BACBB4-EF1E-6629-419B-9E636F5FF125"/>
+</associations>
+</Column>
+<Column name="Titular_cpfTitular" id="B5955E46-322E-A261-8C0C-F10C830E660D">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>C7444E51-32BB-8774-E6E1-A36C8C86EEB3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24958DD0-786B-EAD8-42B1-54AECFC8FC7D" referredColumn="49988D01-6E1D-CB83-87CE-10F34CC3171C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E01BCB9A-1910-676B-5262-860B65309F2B" name="Pessoa_PK">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>A0DDA8E2-A2C9-C63C-D2D5-DAB0E95AAFAD</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8471061-0542-6940-5F8F-2D34BE427E19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="298F6421-F0D6-5DF5-263D-88E36600C6C4" name="Pessoa__IDX">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E8EA83DE-2811-CA18-4D48-C638530FD0D0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BBE8E6CD-389D-027A-8F7B-45263525F54B"/>
+<colUsage columnID="5F89DB64-A8FE-E0EC-2E29-16E03F8995D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD9CF519-8F70-8A83-EF3B-9D6EB5F88887" name="Pessoa__IDXv1">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EA92CBF3-2546-DE0F-FCC4-2231D46C8705</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2F236F47-64E7-3794-3342-DCF854F7015A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAE2227D-8622-630D-D86E-DEF4B2B7CA00" name="Pessoa__IDXv2">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1DA4973A-70C1-3BB4-8A03-537E9BB2616D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B5955E46-322E-A261-8C0C-F10C830E660D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="519E400F-4A54-D152-FADC-87AD51DA68DE" name="PessoaDependentev1">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<generatorID>E8EA83DE-2811-CA18-4D48-C638530FD0D0</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBE8E6CD-389D-027A-8F7B-45263525F54B"/>
+<colUsage columnID="5F89DB64-A8FE-E0EC-2E29-16E03F8995D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F029A799-E4A0-901D-EBDF-5A729FE163E8" name="PessoaEnderecov1">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<generatorID>EA92CBF3-2546-DE0F-FCC4-2231D46C8705</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F236F47-64E7-3794-3342-DCF854F7015A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6EC7749-5141-5C5B-9CB2-DE9C4731979F" name="PessoaTitularv1">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<generatorID>1DA4973A-70C1-3BB4-8A03-537E9BB2616D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5955E46-322E-A261-8C0C-F10C830E660D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

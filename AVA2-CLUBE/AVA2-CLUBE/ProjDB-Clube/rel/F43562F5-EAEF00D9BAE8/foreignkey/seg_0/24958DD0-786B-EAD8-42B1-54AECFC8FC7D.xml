@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24958DD0-786B-EAD8-42B1-54AECFC8FC7D" containerWithKeyObject="31779A06-CEF8-F986-3E36-52C63145A50B" localFKIndex="F6EC7749-5141-5C5B-9CB2-DE9C4731979F" name="PessoaTitularv1">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<generatorID>1DA4973A-70C1-3BB4-8A03-537E9BB2616D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referredTableLongName>Titular</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3385564-9EC4-6C5A-01E6-D715950AA922</referredTableID>
+<keyObject>1AF3634E-7636-3BB4-9683-CB074473B781</keyObject>
+<referredKeyID>1AF3634E-7636-3BB4-9683-CB074473B781</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cpfTitular</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

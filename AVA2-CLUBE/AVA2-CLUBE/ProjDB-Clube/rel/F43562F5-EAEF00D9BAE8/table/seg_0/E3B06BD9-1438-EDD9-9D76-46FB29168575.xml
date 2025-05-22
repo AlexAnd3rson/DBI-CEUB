@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3B06BD9-1438-EDD9-9D76-46FB29168575" name="UfEndereco">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>E40161FA-C3A7-5A0A-3695-FB80129D6272</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="siglaUf" id="CD51F0E5-31A6-A1AA-4518-D8815D11D7A2">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>EB4AD709-54F9-D6DF-73FD-D0C16680B780</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeUf" id="AD6DCBBE-696E-3D47-3E2E-94FAC9E3D18E">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>4393D06A-A452-5AAC-44F4-77B5683CBFD1</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 CHAR</dataTypeSize>
+<ownDataTypeParameters>18 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55D3FFEC-D8C2-8460-F2CB-6308A8363D12" name="UfEndereco_PK">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>EA56DDB1-45FD-9884-423C-CC525863BA6A</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD51F0E5-31A6-A1AA-4518-D8815D11D7A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

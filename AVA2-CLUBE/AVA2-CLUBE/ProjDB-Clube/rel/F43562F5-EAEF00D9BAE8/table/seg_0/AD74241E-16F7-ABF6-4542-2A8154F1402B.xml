@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD74241E-16F7-ABF6-4542-2A8154F1402B" name="TelefonePessoa">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>99D93194-9F2F-6B7D-E632-48CBEABB5D44</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfPessoa" id="40C2FE58-1DD8-83E4-23ED-3756E541E783">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>77C34AD9-5017-1411-1933-DF625D928745</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dddTelefone" id="A07DBEFF-8E66-208B-2691-50574AD1528B">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>91049059-F341-E305-E222-D05BE2126CFF</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nroTelefone" id="B2215931-4F96-8798-BF12-53A7667A6547">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>36B284AB-BD82-3ACB-1DB4-2A83B65CD7B8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pessoa_cpfPessoa" id="6CE82829-27AD-75D8-E504-05AD091FCB52">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>2DAEA416-547D-4EB6-B808-F8BDA1E57F24</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2444C2C-F481-D2C5-7CFB-891F1BAABBCB" referredColumn="E8471061-0542-6940-5F8F-2D34BE427E19"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07B7C8D7-F405-34EB-9FAD-DDC6807B47D7" name="TelefonePessoa_PK">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>A81A5263-E9BC-5890-6C0B-CC1455699ACE</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40C2FE58-1DD8-83E4-23ED-3756E541E783"/>
+<colUsage columnID="A07DBEFF-8E66-208B-2691-50574AD1528B"/>
+<colUsage columnID="B2215931-4F96-8798-BF12-53A7667A6547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CE054A4-A340-12A6-6B62-D12B7140FA15" name="PessoaTelefone">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<generatorID>B16FDF09-4C42-F37F-44CA-6FA6F9FDFDFA</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE82829-27AD-75D8-E504-05AD091FCB52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

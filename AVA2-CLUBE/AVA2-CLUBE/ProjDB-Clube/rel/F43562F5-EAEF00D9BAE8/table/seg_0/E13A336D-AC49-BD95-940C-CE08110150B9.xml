@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E13A336D-AC49-BD95-940C-CE08110150B9" name="Parentesco">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>4658ACF2-473D-9172-85C1-5A333549DA5D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="grauParentesco" id="B0A91AF9-D3D9-1A4B-ABB2-A9BD63329D92">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>F3B80668-BFF2-B2BB-50D4-52F4FDED16D2</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tituloParentesco" id="10BFDAD1-513A-44D0-7266-7FAE01BA35E2">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>5D19006C-79E7-C810-949D-35E92D8906E0</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dependente_cpfDependente" id="E2003A7A-28B0-613A-791B-1CF946E8D3D3">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>E802F838-609C-1FCB-8343-2C39B7A340B1</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75B2C415-FD41-5095-59E0-3B3A3CA5A2C3" referredColumn="B074BD71-3DA6-588F-9ECF-9C2EB12EBF38"/>
+</associations>
+</Column>
+<Column name="Dependente_cpfTitular" id="31A075DA-18D7-2F63-3B70-2907C70B88D1">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>21B367AB-74D1-D0CE-B925-F559E098295E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75B2C415-FD41-5095-59E0-3B3A3CA5A2C3" referredColumn="4688B590-BCD9-1BF7-6EDF-47AE3C48E1C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6639651-D5DE-A055-5F8A-108043117B09" name="Parentesco_PK">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:28 UTC</createdTime>
+<generatorID>7FCCDBCC-0468-D3C3-916B-A4D957F764D7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0A91AF9-D3D9-1A4B-ABB2-A9BD63329D92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EA9C2BE-CCEE-F8DB-66D8-F1DF0FEDEC47" name="Parentesco__IDX">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>306D9FEE-5938-5FAD-6746-2B2381E7FFE7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E2003A7A-28B0-613A-791B-1CF946E8D3D3"/>
+<colUsage columnID="31A075DA-18D7-2F63-3B70-2907C70B88D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="552ADABC-DCC8-1B8A-384C-73331219823D" name="DependenteParentesco">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<generatorID>306D9FEE-5938-5FAD-6746-2B2381E7FFE7</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2003A7A-28B0-613A-791B-1CF946E8D3D3"/>
+<colUsage columnID="31A075DA-18D7-2F63-3B70-2907C70B88D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

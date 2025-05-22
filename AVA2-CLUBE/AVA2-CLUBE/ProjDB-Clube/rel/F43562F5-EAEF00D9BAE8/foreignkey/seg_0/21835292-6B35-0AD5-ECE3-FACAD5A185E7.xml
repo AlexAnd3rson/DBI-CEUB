@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21835292-6B35-0AD5-ECE3-FACAD5A185E7" containerWithKeyObject="9566A60E-6380-B98C-2555-0259D6E8BD3F" localFKIndex="2DE8E7A5-FFFB-00EC-D5E8-AD65E86D576F" name="UfEndereco">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:45:29 UTC</createdTime>
+<generatorID>F437F866-F07A-B9A6-41E6-6ECF049B1CC8</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<referredTableLongName>UfEndereco</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E3B06BD9-1438-EDD9-9D76-46FB29168575</referredTableID>
+<keyObject>55D3FFEC-D8C2-8460-F2CB-6308A8363D12</keyObject>
+<referredKeyID>55D3FFEC-D8C2-8460-F2CB-6308A8363D12</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>siglaUf</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
