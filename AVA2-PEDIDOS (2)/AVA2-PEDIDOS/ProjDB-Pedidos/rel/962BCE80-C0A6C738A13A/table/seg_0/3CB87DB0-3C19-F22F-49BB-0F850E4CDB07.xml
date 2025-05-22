@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CB87DB0-3C19-F22F-49BB-0F850E4CDB07" name="TelefonesCliente">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<generatorID>895BA031-9406-2F35-9AB8-65F41CD45A51</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>TelefonesCliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="58781A23-CBB0-737A-72ED-4E91EC32A005">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<generatorID>082BA9D5-0C73-9863-B922-50C1CC4227F6</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="EE8E6731-BB6B-C4DA-523D-71744FC46177">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<generatorID>3DC004FF-E386-D8BC-73E6-76CC720D43F3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneCliente" id="A14629D6-8B0F-9889-AC6F-79E1E7E3B7B4">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<generatorID>2CF95B7A-04B5-535A-3498-453D8F7A4E27</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_cpfCliente" id="C326007E-EB19-572B-2683-0A5F66301C8D">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>517A2646-9475-464E-E090-D3C2CB8BF61F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B595C068-0A92-1197-CBBD-C114D8164EF8" referredColumn="01A7F9C3-4D6B-0AE6-D087-28F800A7F408"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4CD649C-3CBE-BF41-B42B-DD978248BB59" name="TelefonesCliente_PK">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<generatorID>D2B399BA-928C-144B-1EDA-D8D081086BCA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58781A23-CBB0-737A-72ED-4E91EC32A005"/>
+<colUsage columnID="EE8E6731-BB6B-C4DA-523D-71744FC46177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE0F83CF-285C-E83B-E080-631B54FC004A" name="TelefonesCliente_Clientes_FK">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:04 UTC</createdTime>
+<generatorID>C7D9B0AD-3FD2-506A-3D82-A9D56AC6A6FF</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C326007E-EB19-572B-2683-0A5F66301C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

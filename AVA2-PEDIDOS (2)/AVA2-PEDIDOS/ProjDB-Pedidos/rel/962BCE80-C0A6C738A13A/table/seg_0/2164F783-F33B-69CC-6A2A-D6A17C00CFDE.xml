@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2164F783-F33B-69CC-6A2A-D6A17C00CFDE" name="EmailCliente">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<generatorID>A358D7C2-A869-EA7C-B20E-D5322DC87DDE</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="0AA2E6F1-0242-A33E-1A3E-72FA7B4A4E57">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<generatorID>DDA60FC5-DDBE-801E-432A-3FA97C4C799A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailCliente" id="D16ECD3B-ADAF-83DE-76A7-B52CD79E39E8">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<generatorID>EDD60DE7-E8D6-C280-69F5-304FD6F25749</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_cpfCliente" id="E6B5510C-5DB4-A23C-4842-3106FAF103B3">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>65676BA7-3D95-5B21-E6A3-35EAB5997D95</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F12ADD8-D392-E946-57DE-F37B36B251B0" referredColumn="01A7F9C3-4D6B-0AE6-D087-28F800A7F408"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A03D467D-23E9-9B59-23C2-DD8FA41CF357" name="EmailCliente_PK">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:03 UTC</createdTime>
+<generatorID>CBE2E4C7-B143-E9C4-B308-235E390AD5F8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AA2E6F1-0242-A33E-1A3E-72FA7B4A4E57"/>
+<colUsage columnID="D16ECD3B-ADAF-83DE-76A7-B52CD79E39E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCAAC2F1-8A7B-32FA-C3A8-1FFFCEB8F233" name="EmailCliente_Clientes_FK">
+<createdBy>alex.anderson</createdBy>
+<createdTime>2025-05-22 22:22:04 UTC</createdTime>
+<generatorID>4CCD24A3-50F7-0AB2-EC37-AE57A2E6FB1F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6B5510C-5DB4-A23C-4842-3106FAF103B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
